@@ -1,0 +1,36 @@
+body {
+  background: #37559c;
+  padding: 5px; /* preview */
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; /* global */
+}
+.mod-search-bar {
+  position: relative;
+  display: inline-block;
+  margin: 3px 0;
+}
+.mod-search-bar input {
+  border: 1px solid #0a3086;
+  border-radius: 2px;
+  padding: 4px 5px 5px 5px;
+  width: 338px;
+  font-size: 11px;
+  box-shadow: inset 0 1px 1px #d9d9d9;
+}
+.mod-search-bar ::-webkit-input-placeholder {
+  color: #777777;
+}
+.mod-search-bar input:focus {
+  outline: none;
+}
+.mod-search-bar button {
+  position: absolute;
+  background: #FFF url(http://facebook.com/rsrc.php/v2/yl/r/R-wrO_nWnkl.png) no-repeat;
+  background-size: 104px 558px;
+  background-position: -31px -131px;
+  border: none;
+  top: 2px;
+  right: 1px;
+  width: 23px;
+  line-height: 18px;
+  height: 17px;
+}
