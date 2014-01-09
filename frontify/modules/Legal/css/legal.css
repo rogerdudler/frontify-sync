@@ -1,0 +1,23 @@
+body {
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; /* global */
+  font-size: 11px;
+  width: 200px;
+}
+.mod-legal {
+  padding: 5px;
+}
+.mod-legal {
+  color: #808087;
+  line-height: 1.3;
+}
+.mod-legal p {
+  color: #808083;
+  line-height: 2;
+}
+.mod-legal a {
+  color: #37559c;
+  text-decoration: none;
+}
+.mod-legal a:hover {
+  text-decoration: underline;
+}
