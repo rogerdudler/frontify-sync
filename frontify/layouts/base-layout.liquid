@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <style type="text/css"></style>
+  </head>
+  <body class="page"> 
+    <header>
+      <div class="row">
+        <div class="col col-left">
+          <?php echo $modules['Logo']['code_html'] ?>
+        </div>
+        <div class="col col-left">
+          <?php echo $modules['NotificationBar']['code_html'] ?>
+        </div>
+        <div class="col col-left">
+          <?php echo $modules['SearchBar']['code_html'] ?>
+        </div>
+        <div class="col-header-right">
+          <?php echo $modules['ServiceNavigation']['code_html'] ?>
+        </div>
+      </div>
+    </header>
+    <div class="row">
+      <div class="col col-left col-sidebar">
+        <?php echo $modules['SidebarProfile']['code_html'] ?>
+        <?php echo $modules['SidebarNavigation']['code_html'] ?>
+      </div>
+      <div class="col col-content">
+        <div class="col-content-left">
+          <?php echo $modules['QuickPost']['code_html'] ?>
+          <?php echo $modules['WallSort']['code_html'] ?>
+          <?php echo $modules['Wall']['code_html'] ?>
+        </div>
+        <div class="col-content-right">
+          <?php echo $modules['Sponsored']['code_html'] ?>
+          <?php echo $modules['Legal']['code_html'] ?>
+        </div>
+      </div>
+    </div>
+    <?php echo $modules['Chat']['code_html'] ?>
+  </body>
+</html>
