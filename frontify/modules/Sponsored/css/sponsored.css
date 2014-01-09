@@ -1,0 +1,68 @@
+body {
+  padding: 10px;
+  width: 244px;
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; /* global */
+  font-size: 11px;
+}
+.mod-sponsored-sidebar .head {
+  background: #f2f2f2;
+  border-top: 1px solid #e2e2e2;
+  padding: 0 6px;
+  overflow: hidden;
+  line-height: 20px;
+}
+.mod-sponsored-sidebar .head h4 {
+  color: #66666e;
+  font-weight: bold;
+  float: left;
+}
+.mod-sponsored-sidebar .head a {
+  float: right;
+  color: #6b82bd;
+  text-decoration: none;
+}
+.mod-sponsored-sidebar .head a:hover {
+  text-decoration: underline;
+}
+.mod-sponsored-sidebar .ad {
+  padding: 6px 6px 8px 6px;
+  border-bottom: 1px solid #e9e9e9;
+  margin-bottom: 2px;
+}
+.mod-sponsored-sidebar .ad h5 a {
+  display: block;
+  font-weight: bold;
+  color: #37559c;
+  margin-bottom: 6px;
+  text-decoration: none;
+}
+.mod-sponsored-sidebar .ad-content {
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.mod-sponsored-sidebar .ad-content img {
+  float: left;
+  margin-right: 8px;
+}
+.mod-sponsored-sidebar .ad-content p {
+  float: left;
+  width: 122px;
+  line-height: 1.3;
+}
+.mod-sponsored-sidebar .ad-likes {
+  color: #999999;
+  line-height: 1.3;
+}
+.mod-sponsored-sidebar .ad-likes a {
+  color: #37559c;
+  text-decoration: none;
+}
+.mod-sponsored-sidebar .ad-likes a i {
+  display: inline-block;
+  width: 12px;
+  height: 11px;
+  background-image: url(http://facebook.com/rsrc.php/v2/yd/r/j2WyYXH8SKm.png);
+  background-size: 852px 422px;
+  background-repeat: no-repeat;
+  background-position: -78px -171px;
+}
