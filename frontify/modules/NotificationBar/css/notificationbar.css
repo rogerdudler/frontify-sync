@@ -1,0 +1,33 @@
+body {
+  background: #37559c;
+}
+.mod-notification-bar {
+  zoom: 1;
+  margin: 0 8px 0 1px;
+}
+.mod-notification-bar a {
+  float: left;
+  background-image: url(http://facebook.com/rsrc.php/v2/yl/r/R-wrO_nWnkl.png);
+  background-repeat: no-repeat;
+  display: block;
+  height: 31px;
+  position: relative;
+  text-decoration: none;
+  margin: 0 1px;
+  width: 23px;
+}
+.mod-notification-bar a:hover {
+  background-color: #4B67A1;
+}
+.mod-notification-bar .btn-requests {
+  background-size: 104px 558px;
+  background-position: -75px -220px;
+}
+.mod-notification-bar .btn-messages {
+  background-size: 104px 558px;
+  background-position: 0 -185px;
+}
+.mod-notification-bar .btn-notifications {
+  background-size: 104px 558px;
+  background-position: 0 -220px;
+}
