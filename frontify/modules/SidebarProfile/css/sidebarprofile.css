@@ -1,0 +1,32 @@
+body {
+  padding: 10px; /* preview */
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; /* global */
+  font-size: 11px;
+  width: 179px;
+}
+.mod-sidebar-profile {
+  overflow: hidden;
+  margin: 0 0 16px 0;
+}
+.mod-sidebar-profile img {
+  display: block;
+  float: left;
+}
+.mod-sidebar-profile p {
+  display: block;
+  float: left;
+  color: #37559c;
+  line-height: 1.4;
+  padding: 5px 8px;
+}
+.mod-sidebar-profile p .name {
+  display: block;
+  font-weight: bold;
+}
+.mod-sidebar-profile p a {
+  text-decoration: none;
+  color: #37559c;
+}
+.mod-sidebar-profile p a:hover {
+  text-decoration: underline;
+}
