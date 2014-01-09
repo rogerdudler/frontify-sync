@@ -1,1 +1,36 @@
-WW05a2VTQjdDaUFnWW1GamEyZHliM1Z1WkRvZ0l6TTNOVFU1WXpzS0lDQndZV1JrYVc1bk9pQTFjSGc3CklDOHFJSEJ5WlhacFpYY2dLaThLSUNCbWIyNTBMV1poYldsc2VUb2dKMngxWTJsa1lTQm5jbUZ1WkdVbgpMQ0IwWVdodmJXRXNJSFpsY21SaGJtRXNJR0Z5YVdGc0xDQnpZVzV6TFhObGNtbG1PeUF2S2lCbmJHOWkKWVd3Z0tpOEtmUW91Ylc5a0xYTmxZWEpqYUMxaVlYSWdld29nSUhCdmMybDBhVzl1T2lCeVpXeGhkR2wyClpUc0tJQ0JrYVhOd2JHRjVPaUJwYm14cGJtVXRZbXh2WTJzN0NpQWdiV0Z5WjJsdU9pQXpjSGdnTURzSwpmUW91Ylc5a0xYTmxZWEpqYUMxaVlYSWdhVzV3ZFhRZ2V3b2dJR0p2Y21SbGNqb2dNWEI0SUhOdmJHbGsKSUNNd1lUTXdPRFk3Q2lBZ1ltOXlaR1Z5TFhKaFpHbDFjem9nTW5CNE93b2dJSEJoWkdScGJtYzZJRFJ3CmVDQTFjSGdnTlhCNElEVndlRHNLSUNCM2FXUjBhRG9nTXpNNGNIZzdDaUFnWm05dWRDMXphWHBsT2lBeApNWEI0T3dvZ0lHSnZlQzF6YUdGa2IzYzZJR2x1YzJWMElEQWdNWEI0SURGd2VDQWpaRGxrT1dRNU93cDkKQ2k1dGIyUXRjMlZoY21Ob0xXSmhjaUE2T2kxM1pXSnJhWFF0YVc1d2RYUXRjR3hoWTJWb2IyeGtaWElnCmV3b2dJR052Ykc5eU9pQWpOemMzTnpjM093cDlDaTV0YjJRdGMyVmhjbU5vTFdKaGNpQnBibkIxZERwbQpiMk4xY3lCN0NpQWdiM1YwYkdsdVpUb2dibTl1WlRzS2ZRb3ViVzlrTFhObFlYSmphQzFpWVhJZ1luVjAKZEc5dUlIc0tJQ0J3YjNOcGRHbHZiam9nWVdKemIyeDFkR1U3Q2lBZ1ltRmphMmR5YjNWdVpEb2dJMFpHClJpQjFjbXdvYUhSMGNEb3ZMMlpoWTJWaWIyOXJMbU52YlM5eWMzSmpMbkJvY0M5Mk1pOTViQzl5TDFJdApkM0pQWDI1WGJtdHNMbkJ1WnlrZ2JtOHRjbVZ3WldGME93b2dJR0poWTJ0bmNtOTFibVF0YzJsNlpUb2cKTVRBMGNIZ2dOVFU0Y0hnN0NpQWdZbUZqYTJkeWIzVnVaQzF3YjNOcGRHbHZiam9nTFRNeGNIZ2dMVEV6Ck1YQjRPd29nSUdKdmNtUmxjam9nYm05dVpUc0tJQ0IwYjNBNklESndlRHNLSUNCeWFXZG9kRG9nTVhCNApPd29nSUhkcFpIUm9PaUF5TTNCNE93b2dJR3hwYm1VdGFHVnBaMmgwT2lBeE9IQjRPd29nSUdobGFXZG8KZERvZ01UZHdlRHNLZlE9PQo=
+body {
+  background: #37559c;
+  padding: 5px; /* preview */
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; /* global */
+}
+.mod-search-bar {
+  position: relative;
+  display: inline-block;
+  margin: 3px 0;
+}
+.mod-search-bar input {
+  border: 1px solid #0a3086;
+  border-radius: 2px;
+  padding: 4px 5px 5px 5px;
+  width: 338px;
+  font-size: 11px;
+  box-shadow: inset 0 1px 1px #d9d9d9;
+}
+.mod-search-bar ::-webkit-input-placeholder {
+  color: #777777;
+}
+.mod-search-bar input:focus {
+  outline: none;
+}
+.mod-search-bar button {
+  position: absolute;
+  background: #FFF url(http://facebook.com/rsrc.php/v2/yl/r/R-wrO_nWnkl.png) no-repeat;
+  background-size: 104px 558px;
+  background-position: -31px -131px;
+  border: none;
+  top: 2px;
+  right: 1px;
+  width: 23px;
+  line-height: 18px;
+  height: 17px;
+}
