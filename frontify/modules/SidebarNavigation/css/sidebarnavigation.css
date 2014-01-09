@@ -1,0 +1,89 @@
+body {
+  padding: 10px; /* preview */
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; /* global */
+  font-size: 11px;
+  width: 179px;
+}
+.mod-sidebar-navigation ul {
+  margin-bottom: 15px;
+}
+.mod-sidebar-navigation a {
+  display: block;
+  color: #333333;
+  text-decoration: none;
+  padding: 1px 6px 1px;
+  position: relative;
+  margin-bottom: 1px;
+}
+.mod-sidebar-navigation a:hover {
+  background: #eff2f7;
+}
+.mod-sidebar-navigation a .label {
+  display: inline-block;
+  line-height: 17px;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.mod-sidebar-navigation a i {
+  display: inline-block;
+  margin-right: 2px;
+}
+.mod-sidebar-navigation .active a {
+  background: #d8dfec;
+  color: #333333;
+  font-weight: bold;
+}
+.mod-sidebar-navigation h3 {
+  color: #999999;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.mod-sidebar-navigation .count {
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: 8px;
+  background: #d8dfec;
+  color: #37559c;
+  font-weight: bold;
+  font-size: 9px;
+  border-radius: 2px;
+  padding: 0 4px;
+  line-height: 15px;
+}
+.mod-sidebar-navigation .icon {
+  display: inline-block;
+  background-image: url(http://facebook.com/rsrc.php/v2/yf/r/2iuawXpSyHZ.png);
+  background-size: 35px 776px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+}
+.mod-sidebar-navigation .icon-news {
+  background-position: -17px -622px;
+}
+.mod-sidebar-navigation .icon-messages {
+  background-position: 0 -623px;
+}
+.mod-sidebar-navigation .icon-events {
+  background-image: url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yG/r/VfkLVkNge0y.png);
+  background-size: 15px 16px;
+  background-position: 0 0;
+}
+.mod-sidebar-navigation .icon-photos {
+  background-image: url(http://facebook.com/rsrc.php/v2/yd/r/j2WyYXH8SKm.png);
+  background-size: 852px 422px;
+  background-position: -197px -130px;
+}
+.mod-sidebar-navigation .icon-admanager {
+  background-image: url(http://facebook.com/rsrc.php/v2/yd/r/HKyqIc_haqq.png);
+  background-size: 33px 120px;
+  background-position: 0 -53px;
+}
