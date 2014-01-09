@@ -1,0 +1,18 @@
+body {
+  background: #37559c; /* preview */
+}
+.mod-logo {
+  margin-left: -6px;
+}
+.mod-logo a {
+  display: block;
+  width: 103px;
+  height: 31px;
+  background: url(http://facebook.com/rsrc.php/v2/yl/r/R-wrO_nWnkl.png) no-repeat;
+  background-size: 104px 558px;
+  background-position: 0 -151px;
+  text-indent: -9999px;
+}
+.mod-logo a:hover {
+  background-color: #4b67a1;
+}
