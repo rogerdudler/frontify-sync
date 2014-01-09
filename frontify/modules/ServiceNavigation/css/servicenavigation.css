@@ -1,0 +1,72 @@
+body {
+  background: #37559c;
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; /* global */
+  font-size: 11px;
+  padding: 5px;
+}
+.mod-service-navigation {
+  overflow: hidden;
+  float: right;
+  white-space: nowrap;
+}
+.mod-service-navigation li {
+  display: inline;
+}
+.mod-service-navigation a {
+  display: block;
+  float: left;
+  font-weight: bold;
+  color: #d8dfec;
+  text-decoration: none;
+  overflow: hidden;
+  padding: 3px 0 3px 3px;
+  margin-right: -1px;
+}
+.mod-service-navigation a:hover {
+  background-color: #4b67a1;
+}
+.mod-service-navigation a img {
+  display: block;
+  width: 23px;
+  height: 23px;
+  border: 1px solid #254693;
+  border-radius: 2px;
+  float: left;
+}
+.mod-service-navigation a span {
+  float: left;
+  display: block;
+  border-right: 1px solid #506ba8;
+  padding: 0 7px;
+  margin: 5px 0;
+  line-height: 15px;
+}
+.mod-service-navigation li:first-child span {
+  padding-left: 5px;
+}
+.mod-service-navigation li:last-child span {
+  border-right: none;
+}
+.mod-service-navigation .icon-item a {
+  padding: 0;
+}
+.mod-service-navigation .icon-item a span {
+  margin: 7px 0 5px;
+  padding: 2px 8px 0 8px;
+}
+.mod-service-navigation .icon {
+  display: inline-block;
+  background-image: url(http://facebook.com/rsrc.php/v2/yl/r/R-wrO_nWnkl.png);
+  background-repeat: no-repeat;
+  height: 12px;
+  margin-top: 2px;
+  width: 12px;
+}
+.mod-service-navigation .icon-permissions {
+  background-size: 104px 558px;
+  background-position: -61px -407px;
+}
+.mod-service-navigation .icon-settings {
+  background-size: 104px 558px;
+  background-position: -7px -397px;
+}
