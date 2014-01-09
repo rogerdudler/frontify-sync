@@ -1,0 +1,71 @@
+body {
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; /* global */
+}
+.mod-quick-post {
+  padding: 16px 0 12px 18px;
+}
+.mod-quick-post ul {
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+.mod-quick-post ul a {
+  display: block;
+  float: left;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 4px 0;
+  color: #37559c;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.mod-quick-post ul a span {
+  display: inline-block;
+  vertical-align: top;
+}
+.mod-quick-post i {
+  display: inline-block;
+  background-image: url(http://facebook.com/rsrc.php/v2/yd/r/j2WyYXH8SKm.png);
+  background-repeat: no-repeat;
+  background-size: 852px 422px;
+  height: 14px;
+  width: 16px;
+  margin-right: 1px;
+}
+.mod-quick-post .icon-status {
+  background-position: -214px -131px;
+}
+.mod-quick-post .icon-image {
+  background-position: -197px -131px;
+}
+.mod-quick-post .icon-arrow {
+  background-size: 852px 422px;
+  background-position: -243px -83px;
+  display: block;
+  height: 6px;
+  left: 4px;
+  position: absolute;
+  top: -5px;
+  width: 9px;
+}
+.mod-quick-post ul .active a {
+  color: #333333;
+  
+}
+.mod-quick-post .tab {
+  position: relative;
+}
+.mod-quick-post input {
+  border: 1px solid #b4bbcf;
+  padding: 5px;
+  font-size: 13px;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.mod-quick-post input:focus {
+  outline: none;
+}
+.mod-quick-post ::-webkit-input-placeholder {
+  color: #777777;
+}
