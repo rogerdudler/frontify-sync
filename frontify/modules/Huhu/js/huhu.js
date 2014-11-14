@@ -1,1 +1,1 @@
-The JS
+console.log(1);
